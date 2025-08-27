@@ -1,10 +1,12 @@
 # winfilter: A graphical Finite Impulse Response design utility
 
+WinFilter is a graphical application to generate the tap coefficients for a finite impulse repsonse filter fow low, high, bandpass and band stop filters.
+
 WinFilter's aim is to allow exploration of windowing techniques and the effects on performance of such considerations as quantisation, number of taps (related to computational time) and parameters of certain window functions. However, it can be used to design a filter with arbitrary attenuation and transition frequency (limited by the other considerations), using an 'automode'. 
 
 As well as producing a set of filter tap values that may be used to implement a real filter, the program can plot frequency, phase and impulse responses in graphical form, and display a graph of the window function if so desired. By default WinFilter designs a lowpass filter, but bandpass filters may be specified and spectral inversion and reversal are implemented for designing highpass and bandstop filters.
 
 <br>
 <p align="center">
-<img src="https://github.com/wyvernSemi/winfilter/assets/21970031/01a6f8e5-67fb-4b7f-a230-430906a70570" width=600>
+<img src="https://github.com/user-attachments/assets/0d99aef5-3072-481e-9840-31c87c4b04b0">
 </p>
